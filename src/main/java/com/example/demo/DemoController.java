@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-        @GetMapping(value = "/hello")
+    @GetMapping(value = "/hello")
         public String sayHelloWorld() {
             return "Hello Your War file is deployed successfully";
         }
@@ -14,6 +14,12 @@ public class DemoController {
     @GetMapping(value = "/deployment")
     public String deployment() {
         return "You have deployed your war package and it is up and running";
+    }
+
+
+    @GetMapping(value = "/bilal")
+    public String bilal() {
+        return "Hello Bilal!";
     }
 
 
