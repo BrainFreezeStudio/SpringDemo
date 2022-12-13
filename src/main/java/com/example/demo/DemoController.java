@@ -11,4 +11,10 @@ public class DemoController {
             return "Hello Your War file is deployed successfully";
         }
 
+    @GetMapping(value = "/deployment")
+    public String deployment() {
+        return "You have deployed your war package and it is up and running";
+    }
+
+
 }
