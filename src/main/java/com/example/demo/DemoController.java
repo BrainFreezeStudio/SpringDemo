@@ -23,4 +23,9 @@ public class DemoController {
     }
 
 
+    @GetMapping(value = "/QA")
+    public String quality() {
+        return "QA Testiing Enviornment!";
+    }
+
 }
