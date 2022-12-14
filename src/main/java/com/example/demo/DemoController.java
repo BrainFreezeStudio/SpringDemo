@@ -38,5 +38,10 @@ public class DemoController {
         return "Hello Bello! What are you doing!";
     }
 
+    @GetMapping(value = "/zeeshan")
+    public String Zeeshan() {
+        return "Hello Zeeshan! What are you doing!";
+    }
+
 
 }
