@@ -28,10 +28,15 @@ public class DemoController {
         return "QA Testiing Enviornment!";
     }
 
-
     @GetMapping(value = "/waqas")
     public String waqas() {
         return "waqas here!";
     }
+
+    @GetMapping(value = "/hellobello")
+    public String hellobello() {
+        return "Hello Bello! What are you doing!";
+    }
+
 
 }
