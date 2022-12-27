@@ -23,6 +23,11 @@ public class DemoController {
     }
 
 
+    @GetMapping(value = "/waqas")
+    public String bilal() {
+        return "Hello Waqas & Salman!";
+    }
+
     @GetMapping(value = "/QA")
     public String quality() {
         return "QA Testiing Enviornment!";
