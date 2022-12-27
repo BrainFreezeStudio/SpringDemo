@@ -24,7 +24,7 @@ public class DemoController {
 
 
     @GetMapping(value = "/waqas")
-    public String bilal() {
+    public String waqas() {
         return "Hello Waqas & Salman!";
     }
 
@@ -33,10 +33,10 @@ public class DemoController {
         return "QA Testiing Enviornment!";
     }
 
-    @GetMapping(value = "/waqas")
-    public String waqas() {
-        return "waqas here!";
-    }
+//    @GetMapping(value = "/waqas")
+//    public String waqas() {
+//        return "waqas here!";
+//    }
 
     @GetMapping(value = "/hellobello")
     public String hellobello() {
