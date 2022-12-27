@@ -35,7 +35,7 @@ public class DemoController {
 
     @GetMapping(value = "/hellobello")
     public String hellobello() {
-        return "Hello Bello! What are you doing!";
+        return "Hello Bello! How are you doing!";
     }
 
     @GetMapping(value = "/zeeshan")
